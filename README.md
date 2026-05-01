@@ -1,5 +1,7 @@
 # A Chess Transformer
 
+In this project, we explored how much chess playing ability can emerge from simply mimicking the moves of strong players without an explicit objective to win, essentially copying the same apporach of next-token prediction in language models. We managed to achieve 98% legal-move accuracy and demonstrated wins against lower Stockfish levels, despite training only on move prediction rather than a direct game-winning objective.
+
 ## General/Future TODOs
 
 - Instead of having utilities in colab notebooks, create util.py files
